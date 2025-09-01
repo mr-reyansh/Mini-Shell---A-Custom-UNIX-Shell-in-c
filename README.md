@@ -51,3 +51,13 @@ MiniShell/
 ├── Makefile          # Build script
 └── README.md         # Project documentation
 
+📌 Example Usage
+mysh> ls -l | grep .c > code_files.txt
+mysh> sleep 5 &
+[Background PID 1234]
+mysh> jobs
+[1] Running   sleep 5
+mysh> fg 1
+
+
+
